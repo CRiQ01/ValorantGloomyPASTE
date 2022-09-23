@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\Includes\Mapper\Kdmapper\intel_driver.cpp">
+      <Filter>Driver\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Mapper\Kdmapper\portable_executable.cpp">
+      <Filter>Driver\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Mapper\Kdmapper\service.cpp">
+      <Filter>Driver\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Mapper\Kdmapper\utils.cpp">
+      <Filter>Driver\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Mapper\Kdmapper\kdmapper.cpp">
+      <Filter>Driver\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Imgui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Imgui\imgui_demo.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Imgui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Imgui\imgui_impl_dx9.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Imgui\imgui_impl_win32.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Imgui\imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Overlay\menu.hpp">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver\Driver.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\render.hpp" />
+    <ClInclude Include="Game\structs.hpp" />
+    <ClInclude Include="Game\cheat.hpp" />
+    <ClInclude Include="Game\defs.h" />
+    <ClInclude Include="Game\globals.hpp" />
+    <ClInclude Include="Game\sdk.hpp" />
+    <ClInclude Include="..\Includes\Mapper\Kdmapper\intel_driver.hpp">
+      <Filter>Driver\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Mapper\Kdmapper\intel_driver_resource.hpp">
+      <Filter>Driver\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Mapper\Kdmapper\kdmapper.hpp">
+      <Filter>Driver\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Mapper\Kdmapper\nt.hpp">
+      <Filter>Driver\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Mapper\Kdmapper\portable_executable.hpp">
+      <Filter>Driver\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Mapper\Kdmapper\service.hpp">
+      <Filter>Driver\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Mapper\Kdmapper\utils.hpp">
+      <Filter>Driver\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver\loader.hpp">
+      <Filter>Driver\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Mapper\bytes.hpp">
+      <Filter>Driver\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imconfig.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imgui_impl_dx9.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imgui_impl_win32.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imstb_rectpack.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imstb_textedit.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imstb_truetype.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Auth\auth.hpp">
+      <Filter>TempAuth</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{a5b155fc-b019-457e-a4d7-c391f30143d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{39406d82-fe78-47f5-8e04-b83774d34cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{7d2a3ee2-ed36-43a4-81ec-8059b47d6c41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Resources">
+      <UniqueIdentifier>{a619ce8c-9cb1-4d28-9509-7e3c4cb71867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempAuth">
+      <UniqueIdentifier>{176a1629-21f1-4f57-b173-121cc543ef89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Includes\Auth\libcurl.lib">
+      <Filter>TempAuth</Filter>
+    </Library>
+    <Library Include="..\Includes\Auth\library_x64.lib">
+      <Filter>TempAuth</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
